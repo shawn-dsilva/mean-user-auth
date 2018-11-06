@@ -9,13 +9,13 @@
   },
   "dependencies": {
     "express": "*",
-    "mongoose":"*",
-    "bcrypt":"*",
-    "cors":"*",
+    "mongoose": "*",
+    "bcrypt": "*",
+    "cors": "*",
     "jsonwebtoken": "*",
     "body-parser": "*",
     "passport": "*",
-    "passport-jwt":"*"
+    "passport-jwt": "*"
   },
   "author": "",
   "license": "ISC"
