@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const passport = require('passport');
 const mongoose = require('mongoose');
-consts= config = require('./config/database');
+const config = require('./config/database');
 
 
 const app = express();
@@ -28,6 +28,13 @@ app.use(cors());
 //Body Parser
 app.use(bodyParser.json());
 
+//Passport 
+app.use(passport.initialize());
+app.use(passport.session());
+
+//JWT
+require('./config/passport')(passport);
+
 //Set Static Folder
 app.use(express.static(path.join(__dirname, 'public')));
 
@@ -36,12 +43,12 @@ app.use('/users', users);
 
 //Start Server
 app.listen(port, () => {
-    console.log('Server Started on port '+port);
+    console.log('Server Started on port ' + port);
 });
 
 //ROUTES
 
 //Index Route
-app.get('/', (req,res)=> {
+app.get('/', (req, res) => {
     res.send('Invalid Endpoint');
 })
