@@ -4,6 +4,24 @@ REST API app implementing user registration and authentication using passport,mo
 <br>
 An [**Angular-6 based front end**](https://github.com/shawn-dsilva/angular-src-mean-user-auth) is in a seperate repo
 
+
+## Requirements
+
+- NodeJs v8.x and npm
+- MongoDB v3.x
+- Port 3000 should be free
+
+## Running this server
+
+- run npm install to get all the packages :
+```
+    npm install
+```
+- run the server,which will be on `localhost:3000`
+```
+    node app
+```
+
 ## CHANGES:
 - git submodule `angular-src-mean-user-auth` **removed** from this repo,
     you can run `ng serve` after cloning the seperate repo `angular-src-mean-user-auth` and it will connect to the Node.JS + MongoDB API server at `localhost:3000`,while serving the frontend at `localhost:4200`, these are defaults.
