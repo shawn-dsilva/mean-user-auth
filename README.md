@@ -1,6 +1,7 @@
 # MEAN-user-auth
 
-REST API app implementing user registration and authentication using passport,mongoDB and JWT
+REST API app implementing user registration and authentication using passport,mongoDB and JWT.
+<br>
 An [**Angular-6 based front end**](https://github.com/shawn-dsilva/angular-src-mean-user-auth) is in a seperate repo
 
 ## CHANGES:
