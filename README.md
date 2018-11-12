@@ -15,30 +15,30 @@ An [**Angular-6 based front end**](https://github.com/shawn-dsilva/angular-src-m
 
 - clone this repo with the` angular` submodule
 ```
-    git clone --recursive https://github.com/shawn-dsilva/mean-user-auth.git
+git clone --recursive https://github.com/shawn-dsilva/mean-user-auth.git
 ```
 - cd into `angular-src...` and run
 ```
-    npm install
+npm install
 ```
 then
 ```
-    ng build
+ng build
 ```
 this will put the compiled angular files into your `public` directory,now `cd` back to root directory
 ```
-    cd ../
+cd ../
 ```
 You should be back in `mean-user-auth` now
 
 - run npm install to get all the packages for `mean-user-auth` :
 ```
-    npm install
+npm install
 ```
 
 - run the server,which will be on `localhost:3000`
 ```
-    node app
+ node app
 ```
 
 ## CHANGES:
