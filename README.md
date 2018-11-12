@@ -13,11 +13,11 @@ An [**Angular-6 based front end**](https://github.com/shawn-dsilva/angular-src-m
 
 ## Running this server
 
--clone this repo with the` angular` submodule
+- clone this repo with the` angular` submodule
 ```
     git clone --recursive https://github.com/shawn-dsilva/mean-user-auth.git
 ```
--cd into `angular-src...` and run
+- cd into `angular-src...` and run
 ```
     npm install
 ```
