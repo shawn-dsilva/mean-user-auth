@@ -50,7 +50,7 @@ app.listen(port, () => {
 
 //Index Route
 app.get('/', (req, res) => {
-    res.send('Invalid Endpoint');
+    res.send('Nothing to see here <br> for now... <br>');
 });
 
 
